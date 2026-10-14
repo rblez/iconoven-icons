@@ -1,0 +1,15 @@
+{
+  "name": "@iconoven/icons",
+  "version": "1.0.1",
+  "homepage": "https://iconoven.com/docs/icons",
+  "description": "IconOven Icons: every icon in the Stroke style, free (MIT), plus the renderer for 12 styles and 13 motions.",
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": { "types": "./dist/index.d.ts", "default": "./dist/index.js" },
+    "./icons": { "types": "./dist/generated/icons.d.ts", "default": "./dist/generated/icons.js" },
+    "./all": { "types": "./dist/generated/all.d.ts", "default": "./dist/generated/all.js" }
+  },
+  "files": ["dist", "CHANGELOG.md", "RENAMED.json", "README.md"]
+}
